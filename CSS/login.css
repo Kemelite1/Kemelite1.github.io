@@ -1,0 +1,212 @@
+/* Universal selector */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navigation bar */
+.navbar {
+    background: linear-gradient(93.73deg, #3D63EC 0%, #2D57EE 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    border-bottom: 3px solid white;
+    height: 460px;
+}
+
+.navbar_logo{
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+}
+
+.navbar_logo .logo{
+    width: 59px;
+    height: 58px;
+    position: relative;
+    top: -190px;
+    margin-left: 2px;
+}
+
+.navbar_header{
+    color: #fff;
+    padding-left: 20px;
+    position: relative;
+    top: -190px;
+}
+
+.navbar_logo p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+}
+
+.navbar_list{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    top: -170px;
+    margin-right: -670px;
+}
+
+.list_items:nth-child(1),
+.list_items:nth-child(2),
+.list_items:nth-child(3),
+.list_items:nth-child(4) {
+border-right: 2px solid #fff;
+}
+
+.navbar_list .list_items .links {
+    display: block;
+    color: #fff;
+    padding: 1px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+/* END */
+
+/* patient image */
+.patient{
+    position: relative;
+    bottom: -50px;
+    margin-left: -340px;
+    width: 550px;
+    top: -0px;
+} 
+/* END */
+
+/* The horizontal and vertical lines */
+.vertical_line{
+    position: relative;
+    right: 620px;
+    top: -465px;
+    border-right: 2px solid white;
+    height: 460px;
+    float: right;
+    
+}
+
+.horizontal_line{
+    position: relative;
+    top: -380px;
+    border-bottom: 2px solid white;
+    width: 730px;
+    
+}
+/* END */
+
+
+.main_container{
+    display: grid;
+    grid-auto-flow: column;
+    height: 400px;
+}
+
+/* doctor image */
+.doctors{
+    display: grid;
+    margin-left: 90px;
+    margin-top: 40px;
+}
+/* END */
+
+.login{
+    color: #4B91F0;
+    font-weight: bold;
+    margin-right: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* form */
+form{
+    background: linear-gradient(93.73deg, #3D63EC 0%, #2D57EE 100%);
+    height: 250px;
+    width: 450px;
+    padding-left: 110px;
+    border: 4px solid #4B91F0;
+    border-radius: 25px;
+    margin-top: 40px;
+}
+
+.user_details{
+    line-height: 4;
+}
+
+label{
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input_area{
+    color: #4B91F0;
+    height: 35px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.passwd{
+    color: white;
+    padding-top: 20px;
+    position: relative;
+    right: 40px;
+    text-align: right;
+}
+
+.signup{
+    margin-top: 10px;
+    margin-left: 148px;
+    justify-content: center;
+}
+
+.signup2{
+    color: #4B91F0;
+    font-size: 18px;
+    font-weight: bold;
+    border: 5px solid white;
+    border-radius: 25px;
+    width: 100px;
+}
+
+#member{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* END */
+
+/* footer */
+footer{
+    background: linear-gradient(93.73deg, #3D63EC 0%, #2D57EE 100%);
+    width: 100%;
+    height: 70px;
+    margin-top: 100px;
+    position: relative;
+    left: 0;
+    bottom: 20;
+}
+
+footer .footer_item{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+footer .footer_item a{
+    color: #f8f8f8;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 25px;
+
+}
+/* END */
