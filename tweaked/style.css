@@ -1,0 +1,154 @@
+body{
+    padding: 23px 25px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 5px;
+}
+
+.navbar-item{
+    color: #272727;
+    text-decoration: none;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.navbar .menu_icon{
+    width: 20px;
+    height: 20px;
+}
+
+.signin-btn{
+    background-color: #008cfffa;
+    border-radius: 5px;
+    border: none;
+    padding: 7px 12px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.logo #google-logo{
+    width: 272px;
+    height: 92px;
+}
+
+.search{
+    position: relative;
+}
+
+.search .search-bar{
+    border: 1px solid #dedede;
+    border-radius: 500px;
+    width: 550px;
+    position: relative;
+    margin-top: 20px;
+    padding: 15px;
+    outline:;
+}
+
+.search .google-mic{
+    width: 15px;
+    position: absolute;
+    bottom: 12px;
+    right: 20px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.search .search-icon{
+   width: 15px; 
+   position: absolute;
+   bottom: 12px;
+   left: 20px;
+   display: block;
+   text-align: center;
+   line-height: 50px;
+   cursor: pointer;
+}
+
+.logo .button{
+    margin-top: 40px;
+}
+
+.logo .button .btn{
+    background-color: #f2f2f2;
+    margin-left: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.logo .button a{
+    color: #585858;
+    text-decoration: none;
+}
+
+.logo p{
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.logo p a{
+    color: #1F11BE;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    border: 1px solid #e4e4e4;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+footer .country{
+    color: #585858;
+    margin: 10px 30px;
+}
+
+footer hr{
+    border: 1px solid #e4e4e4;
+}
+
+footer .footer-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 30px;
+}
+
+footer .footer-item a{
+    color: #585858;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
